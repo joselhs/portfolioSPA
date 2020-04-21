@@ -63,6 +63,9 @@
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
           </li>
           <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#blog">Blog</a>
+          </li>
+          <li class="nav-item mx-0 mx-lg-1">
               <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#links">Links</a>
           </li>
           <li class="nav-item mx-0 mx-lg-1">
@@ -420,31 +423,100 @@
     </div>
   </section>
 
+
+    <!-- Blog Section -->
+    <section class="page-section blog bg-primary text-white" id="blog">
+      <div class="container">
+  
+        <!-- Blog Section Heading -->
+        <h2 class="page-section-heading text-center text-uppercase text-white mb-0">Blog</h2>
+  
+        <!-- Icon Divider -->
+        <div class="divider-custom divider-light">
+          <div class="divider-custom-line"></div>
+          <div class="divider-custom-icon">
+            <i class="fas fa-star"></i>
+          </div>
+          <div class="divider-custom-line"></div>
+        </div>
+  
+        <!-- Blog Grid Items -->
+        <div class="row">
+  
+          <!-- Blog Item 1 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="portfolio-item mx-auto">
+              <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                <div class="portfolio-item-caption-content text-center text-white">
+                </div>
+              </div>
+              <a href="www.google.es" target="_blank">
+                <img class="img-fluid" src="./static/img/portfolio/BigDataAtHeart_logo.png" alt="">
+              </a>
+            </div>
+          </div>
+  
+          <!-- Blog Item 2 -->
+          
+          <div class="col-md-6 col-lg-4">
+            <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#blogModal2">
+              <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                <div class="portfolio-item-caption-content text-center text-white">
+
+                </div>
+              </div>
+              <a href="www.google.es" target="_blank">
+                <img class="img-fluid" src="./static/img/portfolio/smoothing.png" alt="">
+              </a>
+            </div>
+          </div>
+          
+  
+          <!-- Blog Item 3 -->
+          <!--
+          <div class="col-md-6 col-lg-4">
+            <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#blogModal3">
+              <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                <div class="portfolio-item-caption-content text-center text-white">
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="./static/img/portfolio/circus.png" alt="">
+            </div>
+          </div>
+          -->
+        </div>
+        <!-- /.row -->
+  
+      </div>
+    </section>
+
   <!-- Custom Links Section -->
-  <section class="page-section bg-primary text-white mb-0" id="links">
+  <section class="page-section mb-0" id="links">
       <div class="container">
     
         <!-- Custom Links Section Heading -->
-        <h2 class="page-section-heading text-center text-uppercase text-white">Links</h2>
-    
+        <h2 class="page-section-heading text-center text-uppercase text-secondary">Links</h2>
+  
         <!-- Icon Divider -->
-        <div class="divider-custom divider-light">
-            <div class="divider-custom-line"></div>
-            <div class="divider-custom-icon">
-              <i class="fas fa-star"></i>
-            </div>
-            <div class="divider-custom-line"></div>
+        <div class="divider-custom text-secondary">
+          <div class="divider-custom-line"></div>
+          <div class="divider-custom-icon">
+            <i class="fas fa-star"></i>
+          </div>
+          <div class="divider-custom-line"></div>
         </div>
+
 
         <div class="row justify-content-md-center">
           <div class="col-lg-9 m-4">
             <p class="lead text-justify">In this section, there are some interesting links where you can find my GitHub, social media and other related links.
               <ul class="">
-                <li><strong><a class="secondary-link" href="https://github.com/joselhs" target="_blank">Github</a></strong></li>
-                <li><strong><a class="secondary-link" href="https://www.linkedin.com/in/jl-holgado-sanchez/" target="_blank">LinkedIn</a></strong></li>
-                <li><strong><a class="secondary-link" href="https://twitter.com/JL_DScientist" target="_blank">Twitter</a></strong></li>
+                <li><strong><a href="https://github.com/joselhs" target="_blank">Github</a></strong></li>
+                <li><strong><a href="https://www.linkedin.com/in/jl-holgado-sanchez/" target="_blank">LinkedIn</a></strong></li>
+                <li><strong><a href="https://twitter.com/JL_DScientist" target="_blank">Twitter</a></strong></li>
                 <br>
-                <li><strong><a class="secondary-link" href="https://www.ncbi.nlm.nih.gov/pubmed/32059081" target="_blank">Acute Kidney Injury in Heart Failure: A population Study</a></strong></li>
+                <li><strong><a href="https://www.ncbi.nlm.nih.gov/pubmed/32059081" target="_blank">Acute Kidney Injury in Heart Failure: A population Study</a></strong></li>
               </ul>
             </p>
           </div>
@@ -493,14 +565,14 @@
 
   
   <!-- Contact Section -->
-  <section class="page-section portfolio" id="contact">
+  <section class="page-section portfolio bg-primary" id="contact">
     <div class="container">
 
       <!-- Contact Section Heading -->
-      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
+      <h2 class="page-section-heading text-center text-uppercase text-white mb-0">Contact Me</h2>
 
       <!-- Icon Divider -->
-      <div class="divider-custom">
+      <div class="divider-custom divider-light">
           <div class="divider-custom-line"></div>
           <div class="divider-custom-icon">
             <i class="fas fa-star"></i>
@@ -677,7 +749,7 @@
                 <!-- Portfolio Modal - Text -->
                 <p class="mb-5">I created a function in R language that permits to plot a "i" series of data with their confidence intervals.
                 </br>The curves were smooth by aproximating the original line with splines. 
-                </br>The source code can be found in <a href="https://github.com/joselhs/Rutils">github</a>.
+                </br>The source code can be found in <a href="https://github.com/joselhs/Rutils" target="_blank">github</a>.
                 </p>
                 <button class="btn btn-primary" href="#" data-dismiss="modal">
                   <i class="fas fa-times fa-fw"></i>
