@@ -1,5 +1,5 @@
 # Portfolio SPA
-A simple Single Page Application with my portfolio using HTML and Bootstrap.
+A simple Single Page Application with [my portfolio](https://jlholgado.com) using HTML and Bootstrap.
 
 I use the Freelancer Bootstrap Theme that you can find [here](https://startbootstrap.com/themes/freelancer/) as the basis of the project.
 
