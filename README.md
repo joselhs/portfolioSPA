@@ -5,4 +5,5 @@ I use the Freelancer Bootstrap Theme that you can find [here](https://startboots
 
 Then I modified it and solved some issues in the theme like the mail php that wasn't working due to the location of the files.
 
-![phone preview](https://github.com/joselhs/portfolioSPA/blob/master/preview.jpg?raw=true)
+## Phone preview
+<img src="https://github.com/joselhs/portfolioSPA/blob/master/static/img/preview.jpeg?raw=true" width="240" height="500">
